@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>P&aacute;gina de download de informa&ccedil;&atilde;o geogr&aacute;fica</title>
+	<link rel="StyleSheet" href="dtree.css" type="text/css" />
+	<script type="text/javascript" src="dtree.js"></script>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="language" content="en" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+div#topo_verm {
+	height		        : 0.1em;
+	background-color	: #FFFFFF;
+	overflow		: hidden;
+	width: 1004px;
+	}
+
+div#rodape {
+        padding-top     : 0.1em;
+        padding-bottom  : 0.1em;
+	background      : #00288A;
+	display		: table;
+	clear 		: both;
+		width		: 1004px;
+}
+
+div#rodape_logos {
+	float	: left;
+	display : inline;
+	width	: 50%;
+}
+
+div#rodape_links {
+	float		: right;
+	padding-top	: 0.4em;
+	padding-right	: 0.5em;
+	color		: #90C5F9;
+	font-size	: 70%;
+	font-weight	: normal;
+	font-style	: normal;
+	text-decoration	: none;
+	display         : inline;
+	text-align	: right;
+	width	        : 40%;
+}
+
+a#arodape	{
+	font-weight	: normal;
+	font-style	: normal;
+	text-decoration	: none;
+}
+
+a#arodape:link		{ color: #90C5F9; }			
+a#arodape:visited	{ color: #90C5F9; }
+a#arodape:active	{ color: #90C5F9; }
+a#arodape:hover		{ color: #FFFFFF; }
+
+div.container {
+  clear : both;
+}
+div.div_dir {
+  float    : right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+</style>
+
+</head>
+<body leftmargin="0px" topmargin="0px" marginwidth="0px" marginheight="0px">
+
+  <SCRIPT language="JavaScript1.2">
+function openwindow()
+{
+	window.open("ajuda.html","Ajuda","menubar=1,resizable=1,scrollbars=1,width=800,height=600");
+}
+function openwindowPlugin()
+{
+	window.open("plugin.html","plugin QGIS","menubar=1,resizable=1,scrollbars=1,width=800,height=600");
+}
+</SCRIPT>    
+
+
+
+<div id="topo_verm"></div>
+<table width="1004" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td class="logo" width="1004"><a href="http://www.ine.pt">
+    <img src="http://www.ine.pt/img/n_logotipo.gif" alt="Instituto Nacional de Estat&iacute;stica" border="0" width="380" height="58" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://censos.ine.pt">
+    <img title="Censos-2021" alt="Censos-2021" border="0" src="images/logocensosportal.png" /></a></td>
+
+  </tr>
+
+  <tr>
+
+       <td class="imagemtopo"  align="right" width="880">
+
+	<img src="images/topo_n.png"   align="middle">
+
+<!--	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="290" height="67" align="middle">
+
+	<param name="allowScriptAccess" value="sameDomain" />
+
+	<param name="movie" value="http://www.ine.pt/scripts/filme_barra.swf" />
+
+	<param name="quality" value="high" /><param name="wmode" value="transparent" />
+
+	<param name="bgcolor" value="#ffffff" />
+
+	<embed src="http://www.ine.pt/scripts/filme_barra.swf" quality="high" wmode="transparent" bgcolor="#ffffff" width="260" height="67" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object>
+-->
+	</td>
+
+  </tr>
+
+</table>
+
+<table width="1004"  cellspacing="0" cellpadding="0" align="center">
+
+  <tbody><tr>
+       <td >
+<ul>
+<div id="menu" >
+<ul>
+<li><a href="http://mapas.ine.pt/download/metadados/bgri.html">MetaInformação SIG</a></li>
+				<li>|<a href="javascript:openwindow();">Ajuda</a></li> 
+				<li>|<a href="javascript:openwindowPlugin();">Plugin QGIS</a></li> 
+                <li>|Apoio ao utilizador (+ 351 218 440 695 - Chamada para rede fixa nacional)</li>
+</ul></ul>
+</div>
+	</td></tr></tbody></table>
+
+
+<table width="1004" border="0"   cellspacing="0" cellpadding="0" align="center" bordercolor="#FFFFFF" bordercolorlight="#CCCCCC" bordercolordark="#FFFFFF">
+
+  <tr>
+
+        <td width="660">&nbsp;</td>
+
+        </tr>
+<tr>
+        <td>
+
+
+
+		<!-- INSERIR CONTEUDO -->
+
+    <div id="main"><div id="main2">	
+
+<div id="toppo">
+<h2>Censos - Importa&ccedil;&atilde;o dos principais dados alfanum&eacute;ricos e geogr&aacute;ficos (BGRI, GRID e Lugares)</h2>
+</div>
+<BR>
+
+            <div id="sidebar">
+                <h2>Per&iacute;odo de refer&ecirc;ncia dos dados</h2>
+                 <ul>
+			 <li><a href="index1991.phtml">1991</a></li><BR>  
+             <li><a href="index2001.phtml">2001</a></li><BR>
+		     <li><a href="index2011.phtml">2011</a></li><BR>
+			  <li><B> &#8226; 2021</B><BR><BR>
+			  
+			          <ul>
+						<li>Subsec&ccedil;&otilde;es Estat&iacute;sticas</li>
+						<li><a href="index2021Grid.phtml">GRID 1000mx1000m</a></li>
+						<li><a href="index2021Lugares.phtml">Lugares</a></li>
+						<li>Lugares por Freguesia
+						
+																	<div id="smallFont">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popula&ccedil;&atilde;o residente
+						<a href="https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0011790&lingua=PT" target="_blank">
+<img src="http://censos.ine.pt/img/indicadores/metaInfo.gif" alt="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" title="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" border="0"></a> 
+						<BR>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edif&iacute;cios
+				<a href="https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0011786&lingua=PT" target="_blank">
+<img src="http://censos.ine.pt/img/indicadores/metaInfo.gif" alt="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" title="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" border="0"></a> 		
+						<BR>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alojamentos 
+	<a href="https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0011788&lingua=PT" target="_blank">
+<img src="http://censos.ine.pt/img/indicadores/metaInfo.gif" alt="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" title="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" border="0"></a>					
+						<BR>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agregados dom&eacute;sticos
+						<a href="https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0011789&lingua=PT" target="_blank">
+<img src="http://censos.ine.pt/img/indicadores/metaInfo.gif" alt="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" title="Metainforma&ccedil;&atilde;o(Abre uma nova janela)" border="0"></a>		
+						<BR>
+				
+					</div> 
+						
+						
+						</li>
+						<li><a href="index2021Seccoes.phtml">Sec&ccedil;&otilde;es Estat&iacute;sticas</a></li>
+
+						<li><a href="2021FicheiroSintese/FS2021SeccaoTot.zip">Ficheiro s&iacute;ntese (dados alfanum&eacute;ricos) – sec&ccedil;&atilde;o estat&iacute;stica</a></li>
+						<li><a href="2021FicheiroSintese/FS2021SubSeccaoTot.zip">Ficheiro s&iacute;ntese (dados alfanum&eacute;ricos) – subsec&ccedil;&atilde;o estat&iacute;stica</a></li>
+
+					</ul>
+			  <a href="C2021_FSINTESE_VARIAVEIS.csv">Lista de vari&aacute;veis dispon&iacute;veis no ficheiro s&iacute;ntese de 2021</a>
+			  
+			  </li>
+			
+                </ul>
+		 
+
+		 
+
+
+
+            </div><!-- sidebar -->                
+            <div id="content">			
+               <div class="post"> 
+                    <h2> &Aacute;rea Geogr&aacute;fica </h2>
+                   <!--  --> <div class="entry">
+ 
+ <div id="TreeView">	
+<div class="dtree">
+	<script type="text/javascript">
+		<!--
+
+		d = new dTree('d');
+
+		d.add(0,-1,'Portugal','filesGPG/2021localitiesFregs/C21_LUGF_PT.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(1,0,'Continente','filesGPG/2021localitiesFregs/C21_LUGF_CONT.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(2,0,'Regi&atilde;o Aut&oacute;noma dos A&ccedil;ores','filesGPG/2021localitiesFregs/C21_LUGF_RAA.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(3,0,'Regi&atilde;o Aut&oacute;noma da Madeira','filesGPG/2021localitiesFregs/C21_LUGF_MAD.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(4,2,'Regi&atilde;o Aut&oacute;noma dos A&ccedil;ores','filesGPG/2021localitiesFregs/C21_LUGF_RAA.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(5,3,'Regi&atilde;o Aut&oacute;noma da Madeira','filesGPG/2021localitiesFregs/C21_LUGF_MAD.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(6,1,'Norte','filesGPG/2021localitiesFregs/nuts2/C21_LUGF_NORTE.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(7,1,'Centro','filesGPG/2021localitiesFregs/nuts2/C21_LUGF_CENTRO.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(8,1,'&Aacute;rea Metropolitana de Lisboa','filesGPG/2021localitiesFregs/nuts2/C21_LUGF_LISBOA.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(9,1,'Alentejo','filesGPG/2021localitiesFregs/nuts2/C21_LUGF_ALENTEJO.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(10,1,'Algarve','filesGPG/2021localitiesFregs/nuts2/C21_LUGF_ALGARVE.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(11,6,'Alto Minho','filesGPG/2021localitiesFregs/nuts3/C21_LUGF_111.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(12,6,'C&aacute;vado','filesGPG/2021localitiesFregs/nuts3/C21_LUGF_112.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(13,6,'Ave','filesGPG/2021localitiesFregs/nuts3/C21_LUGF_119.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(14,6,'&Aacute;rea Metropolitana do Porto','filesGPG/2021localitiesFregs/nuts3/C21_LUGF_11A.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(15,6,'Alto T&acirc;mega','filesGPG/2021localitiesFregs/nuts3/C21_LUGF11B.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(16,6,'T&acirc;mega e Sousa','filesGPG/2021localitiesFregs/nuts3/C21_LUGF11C.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(17,6,'Douro','filesGPG/2021localitiesFregs/nuts3/C21_LUGF11D.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(18,6,'Terras de  Tr&aacute;s-os-Montes','filesGPG/2021localitiesFregs/nuts3/C21_LUGF11E.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(19,7,'Oeste','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16B.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(20,7,'Regi&atilde;o de Aveiro','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16D.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(21,7,'Regi&atilde;o de Coimbra','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16E.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(22,7,'Regi&atilde;o de Leiria','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16F.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(23,7,'Viseu D&atilde;o Laf&otilde;es','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16G.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(24,7,'Beira Baixa','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16H.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(25,7,'M&eacute;dio Tejo','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16I.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(26,7,'Beiras e Serra da Estrela','filesGPG/2021localitiesFregs/nuts3/C21_LUGF16J.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		
+
+		d.add(27,8,'&Aacute;rea Metropolitana de Lisboa','filesGPG/2021localitiesFregs/nuts3/C21_LUGF170.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		
+
+
+		d.add(28,9,'Alentejo Litoral','filesGPG/2021localitiesFregs/nuts3/C21_LUGF181.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(29,9,'Baixo Alentejo','filesGPG/2021localitiesFregs/nuts3/C21_LUGF184.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(30,9,'Lez&iacute;ria do Tejo','filesGPG/2021localitiesFregs/nuts3/C21_LUGF185.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(31,9,'Alto Alentejo','filesGPG/2021localitiesFregs/nuts3/C21_LUGF186.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(32,9,'Alentejo Central','filesGPG/2021localitiesFregs/nuts3/C21_LUGF187.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(33,10,'Algarve','filesGPG/2021localitiesFregs/nuts3/C21_LUGF150.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+              
+		d.add(34,11,'Arcos de Valdevez','filesGPG/2021localitiesFregs/municipios/C21_LUGF1601.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(35,11,'Caminha','filesGPG/2021localitiesFregs/municipios/C21_LUGF1602.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(36,11,'Melga&ccedil;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1603.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(37,11,'Mon&ccedil;&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1604.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(38,11,'Paredes de Coura','filesGPG/2021localitiesFregs/municipios/C21_LUGF1605.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(39,11,'Ponte da Barca','filesGPG/2021localitiesFregs/municipios/C21_LUGF1606.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(40,11,'Ponte de Lima','filesGPG/2021localitiesFregs/municipios/C21_LUGF1607.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(41,11,'Valen&ccedil;a','filesGPG/2021localitiesFregs/municipios/C21_LUGF1608.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(42,11,'Viana do Castelo','filesGPG/2021localitiesFregs/municipios/C21_LUGF1609.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(43,11,'Vila Nova de Cerveira','filesGPG/2021localitiesFregs/municipios/C21_LUGF1610.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(44,12,'Amares','filesGPG/2021localitiesFregs/municipios/C21_LUGF0301.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(45,12,'Barcelos','filesGPG/2021localitiesFregs/municipios/C21_LUGF0302.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(46,12,'Braga','filesGPG/2021localitiesFregs/municipios/C21_LUGF0303.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(47,12,'Esposende','filesGPG/2021localitiesFregs/municipios/C21_LUGF0306.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(48,12,'Terras de Bouro','filesGPG/2021localitiesFregs/municipios/C21_LUGF0310.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(49,12,'Vila Verde','filesGPG/2021localitiesFregs/municipios/C21_LUGF0313.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(50,13,'Cabeceiras de Basto','filesGPG/2021localitiesFregs/municipios/C21_LUGF0304.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(51,13,'Fafe','filesGPG/2021localitiesFregs/municipios/C21_LUGF0307.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(52,13,'Guimar&atilde;es','filesGPG/2021localitiesFregs/municipios/C21_LUGF0308.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(53,13,'Mondim de Basto','filesGPG/2021localitiesFregs/municipios/C21_LUGF1705.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(54,13,'P&oacute;voa de Lanhoso','filesGPG/2021localitiesFregs/municipios/C21_LUGF0309.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(55,13,'Vieira do Minho','filesGPG/2021localitiesFregs/municipios/C21_LUGF0311.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(56,13,'Vila Nova de Famalic&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF0312.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(57,13,'Vizela','filesGPG/2021localitiesFregs/municipios/C21_LUGF0314.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		
+		
+		d.add(58,14,'Arouca','filesGPG/2021localitiesFregs/municipios/C21_LUGF0104.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(59,14,'Espinho','filesGPG/2021localitiesFregs/municipios/C21_LUGF0107.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(60,14,'Gondomar','filesGPG/2021localitiesFregs/municipios/C21_LUGF1304.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(61,14,'Maia','filesGPG/2021localitiesFregs/municipios/C21_LUGF1306.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(62,14,'Matosinhos','filesGPG/2021localitiesFregs/municipios/C21_LUGF1308.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(63,14,'Oliveira de Azem&eacute;is','filesGPG/2021localitiesFregs/municipios/C21_LUGF0113.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(64,14,'Paredes','filesGPG/2021localitiesFregs/municipios/C21_LUGF1310.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(65,14,'Porto','filesGPG/2021localitiesFregs/municipios/C21_LUGF1312.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(66,14,'P&oacute;voa de Varzim','filesGPG/2021localitiesFregs/municipios/C21_LUGF1313.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(67,14,'Santa Maria da Feira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0109.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(68,14,'Santo Tirso','filesGPG/2021localitiesFregs/municipios/C21_LUGF1314.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(69,14,'S&atilde;o Jo&atilde;o da Madeira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0116.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(70,14,'Trofa','filesGPG/2021localitiesFregs/municipios/C21_LUGF1318.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(71,14,'Vale de Cambra','filesGPG/2021localitiesFregs/municipios/C21_LUGF0119.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(72,14,'Valongo','filesGPG/2021localitiesFregs/municipios/C21_LUGF1315.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(73,14,'Vila do Conde','filesGPG/2021localitiesFregs/municipios/C21_LUGF1316.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(74,14,'Vila Nova de Gaia','filesGPG/2021localitiesFregs/municipios/C21_LUGF1317.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(75,15,'Boticas','filesGPG/2021localitiesFregs/municipios/C21_LUGF1702.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(76,15,'Chaves','filesGPG/2021localitiesFregs/municipios/C21_LUGF1703.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(77,15,'Montalegre','filesGPG/2021localitiesFregs/municipios/C21_LUGF1706.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');	
+		d.add(78,15,'Ribeira de Pena','filesGPG/2021localitiesFregs/municipios/C21_LUGF1709.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(79,15,'Valpa&ccedil;os','filesGPG/2021localitiesFregs/municipios/C21_LUGF1712.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(80,15,'Vila Pouca de Aguiar','filesGPG/2021localitiesFregs/municipios/C21_LUGF1713.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(81,16,'Amarante','filesGPG/2021localitiesFregs/municipios/C21_LUGF1301.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(82,16,'Bai&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1302.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(83,16,'Castelo de Paiva','filesGPG/2021localitiesFregs/municipios/C21_LUGF0106.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(84,16,'Celorico de Basto','filesGPG/2021localitiesFregs/municipios/C21_LUGF0305.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(85,16,'Cinf&atilde;es','filesGPG/2021localitiesFregs/municipios/C21_LUGF1804.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(86,16,'Felgueiras','filesGPG/2021localitiesFregs/municipios/C21_LUGF1303.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(87,16,'Lousada','filesGPG/2021localitiesFregs/municipios/C21_LUGF1305.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(88,16,'Marco de Canaveses','filesGPG/2021localitiesFregs/municipios/C21_LUGF1307.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(89,16,'Pa&ccedil;os de Ferreira','filesGPG/2021localitiesFregs/municipios/C21_LUGF1309.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(90,16,'Penafiel','filesGPG/2021localitiesFregs/municipios/C21_LUGF1311.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(91,16,'Resende','filesGPG/2021localitiesFregs/municipios/C21_LUGF1813.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(92,17,'Alij&oacute;','filesGPG/2021localitiesFregs/municipios/C21_LUGF1701.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(93,17,'Armamar','filesGPG/2021localitiesFregs/municipios/C21_LUGF1801.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(94,17,'Carrazeda de Ansi&atilde;es','filesGPG/2021localitiesFregs/municipios/C21_LUGF0403.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(95,17,'Freixo de Espada &agrave; Cinta','filesGPG/2021localitiesFregs/municipios/C21_LUGF0404.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(96,17,'Lamego','filesGPG/2021localitiesFregs/municipios/C21_LUGF1805.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(97,17,'Mes&atilde;o Frio','filesGPG/2021localitiesFregs/municipios/C21_LUGF1704.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(98,17,'Moimenta da Beira','filesGPG/2021localitiesFregs/municipios/C21_LUGF1807.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(99,17,'Mur&ccedil;a','filesGPG/2021localitiesFregs/municipios/C21_LUGF1707.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(100,17,'Penedono','filesGPG/2021localitiesFregs/municipios/C21_LUGF1812.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(101,17,'Peso da R&eacute;gua','filesGPG/2021localitiesFregs/municipios/C21_LUGF1708.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(102,17,'Sabrosa','filesGPG/2021localitiesFregs/municipios/C21_LUGF1710.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(103,17,'Santa Marta de Penagui&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1711.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(104,17,'S&atilde;o Jo&atilde;o da Pesqueira','filesGPG/2021localitiesFregs/municipios/C21_LUGF1815.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(105,17,'Sernancelhe','filesGPG/2021localitiesFregs/municipios/C21_LUGF1818.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(106,17,'Tabua&ccedil;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1819.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(107,17,'Tarouca','filesGPG/2021localitiesFregs/municipios/C21_LUGF1820.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(108,17,'Torre de Moncorvo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0409.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(109,17,'Vila Nova de Foz C&ocirc;a','filesGPG/2021localitiesFregs/municipios/C21_LUGF0914.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(110,17,'Vila Real','filesGPG/2021localitiesFregs/municipios/C21_LUGF1714.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(111,18,'Alf&acirc;ndega da F&eacute;','filesGPG/2021localitiesFregs/municipios/C21_LUGF0401.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(112,18,'Bragan&ccedil;a','filesGPG/2021localitiesFregs/municipios/C21_LUGF0402.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(113,18,'Macedo de Cavaleiros','filesGPG/2021localitiesFregs/municipios/C21_LUGF0405.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(114,18,'Miranda do Douro','filesGPG/2021localitiesFregs/municipios/C21_LUGF0406.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(115,18,'Mirandela','filesGPG/2021localitiesFregs/municipios/C21_LUGF0407.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(116,18,'Mogadouro','filesGPG/2021localitiesFregs/municipios/C21_LUGF0408.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(117,18,'Vila Flor','filesGPG/2021localitiesFregs/municipios/C21_LUGF0410.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(118,18,'Vimioso','filesGPG/2021localitiesFregs/municipios/C21_LUGF0411.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(119,18,'Vinhais','filesGPG/2021localitiesFregs/municipios/C21_LUGF0412.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(120,19,'Alcoba&ccedil;a','filesGPG/2021localitiesFregs/municipios/C21_LUGF1001.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(121,19,'Alenquer','filesGPG/2021localitiesFregs/municipios/C21_LUGF1101.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');	
+		d.add(122,19,'Arruda dos Vinhos','filesGPG/2021localitiesFregs/municipios/C21_LUGF1102.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(123,19,'Bombarral','filesGPG/2021localitiesFregs/municipios/C21_LUGF1005.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(124,19,'Cadaval','filesGPG/2021localitiesFregs/municipios/C21_LUGF1104.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(125,19,'Caldas da Rainha','filesGPG/2021localitiesFregs/municipios/C21_LUGF1006.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(126,19,'Lourinh&atilde;','filesGPG/2021localitiesFregs/municipios/C21_LUGF1108.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(127,19,'Nazar&eacute;','filesGPG/2021localitiesFregs/municipios/C21_LUGF1011.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(128,19,'&oacute;bidos','filesGPG/2021localitiesFregs/municipios/C21_LUGF1012.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(129,19,'Peniche','filesGPG/2021localitiesFregs/municipios/C21_LUGF1014.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(130,19,'Sobral de Monte Agra&ccedil;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1112.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(131,19,'Torres Vedras','filesGPG/2021localitiesFregs/municipios/C21_LUGF1113.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(132,20,'&aacute;gueda','filesGPG/2021localitiesFregs/municipios/C21_LUGF0101.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(133,20,'Albergaria-a-Velha','filesGPG/2021localitiesFregs/municipios/C21_LUGF0102.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(134,20,'Anadia','filesGPG/2021localitiesFregs/municipios/C21_LUGF0103.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(135,20,'Aveiro','filesGPG/2021localitiesFregs/municipios/C21_LUGF0105.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(136,20,'Estarreja','filesGPG/2021localitiesFregs/municipios/C21_LUGF0108.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(137,20,'&iacute;lhavo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0110.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(138,20,'Murtosa','filesGPG/2021localitiesFregs/municipios/C21_LUGF0112.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(139,20,'Oliveira do Bairro','filesGPG/2021localitiesFregs/municipios/C21_LUGF0114.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(140,20,'Ovar','filesGPG/2021localitiesFregs/municipios/C21_LUGF0115.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(141,20,'Sever do Vouga','filesGPG/2021localitiesFregs/municipios/C21_LUGF0117.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(142,20,'Vagos','filesGPG/2021localitiesFregs/municipios/C21_LUGF0118.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		
+		
+		d.add(143,21,'Arganil','filesGPG/2021localitiesFregs/municipios/C21_LUGF0601.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(144,21,'Cantanhede','filesGPG/2021localitiesFregs/municipios/C21_LUGF0602.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(145,21,'Coimbra','filesGPG/2021localitiesFregs/municipios/C21_LUGF0603.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(146,21,'Condeixa-a-Nova','filesGPG/2021localitiesFregs/municipios/C21_LUGF0604.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(147,21,'Figueira da Foz','filesGPG/2021localitiesFregs/municipios/C21_LUGF0605.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(148,21,'G&oacute;is ','filesGPG/2021localitiesFregs/municipios/C21_LUGF0606.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(149,21,'Lous&atilde;','filesGPG/2021localitiesFregs/municipios/C21_LUGF0607.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(150,21,'Mealhada','filesGPG/2021localitiesFregs/municipios/C21_LUGF0111.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(151,21,'Mira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0608.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(152,21,'Miranda do Corvo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0609.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(153,21,'Montemor-o-Velho','filesGPG/2021localitiesFregs/municipios/C21_LUGF0610.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(154,21,'Mort&aacute;gua','filesGPG/2021localitiesFregs/municipios/C21_LUGF1808.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(155,21,'Oliveira do Hospital','filesGPG/2021localitiesFregs/municipios/C21_LUGF0611.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(156,21,'Pampilhosa da Serra','filesGPG/2021localitiesFregs/municipios/C21_LUGF0612.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(157,21,'Penacova','filesGPG/2021localitiesFregs/municipios/C21_LUGF0613.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(158,21,'Penela','filesGPG/2021localitiesFregs/municipios/C21_LUGF0614.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(159,21,'Soure','filesGPG/2021localitiesFregs/municipios/C21_LUGF0615.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(160,21,'T&aacute;bua','filesGPG/2021localitiesFregs/municipios/C21_LUGF0616.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(161,21,'Vila Nova de Poiares','filesGPG/2021localitiesFregs/municipios/C21_LUGF0617.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		
+		
+		d.add(162,22,'Alvai&aacute;zere','filesGPG/2021localitiesFregs/municipios/C21_LUGF1002.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(163,22,'Ansi&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1003.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(164,22,'Batalha','filesGPG/2021localitiesFregs/municipios/C21_LUGF1004.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(165,22,'Castanheira de P&ecirc;ra','filesGPG/2021localitiesFregs/municipios/C21_LUGF1007.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(166,22,'Figueir&oacute; dos Vinhos','filesGPG/2021localitiesFregs/municipios/C21_LUGF1008.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(167,22,'Leiria','filesGPG/2021localitiesFregs/municipios/C21_LUGF1009.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(168,22,'Marinha Grande','filesGPG/2021localitiesFregs/municipios/C21_LUGF1010.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(169,22,'Pedr&oacute;g&atilde;o Grande','filesGPG/2021localitiesFregs/municipios/C21_LUGF1013.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(170,22,'Pombal','filesGPG/2021localitiesFregs/municipios/C21_LUGF1015.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(171,22,'Porto de M&oacute;s','filesGPG/2021localitiesFregs/municipios/C21_LUGF1016.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		
+		
+		d.add(172,23,'Aguiar da Beira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0901.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(173,23,'Carregal do Sal','filesGPG/2021localitiesFregs/municipios/C21_LUGF1802.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(174,23,'Castro Daire','filesGPG/2021localitiesFregs/municipios/C21_LUGF1803.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(175,23,'Mangualde','filesGPG/2021localitiesFregs/municipios/C21_LUGF1806.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(176,23,'Nelas','filesGPG/2021localitiesFregs/municipios/C21_LUGF1809.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(177,23,'Oliveira de Frades','filesGPG/2021localitiesFregs/municipios/C21_LUGF1810.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(178,23,'Penalva do Castelo','filesGPG/2021localitiesFregs/municipios/C21_LUGF1811.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(179,23,'Santa Comba D&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1814.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(180,23,'S&atilde;o Pedro do Sul','filesGPG/2021localitiesFregs/municipios/C21_LUGF1816.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(181,23,'S&aacute;t&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1817.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(182,23,'Tondela','filesGPG/2021localitiesFregs/municipios/C21_LUGF1821.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(183,23,'Vila Nova de Paiva','filesGPG/2021localitiesFregs/municipios/C21_LUGF1822.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(184,23,'Viseu','filesGPG/2021localitiesFregs/municipios/C21_LUGF1823.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(185,23,'Vouzela','filesGPG/2021localitiesFregs/municipios/C21_LUGF1824.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(186,24,'Castelo Branco','filesGPG/2021localitiesFregs/municipios/C21_LUGF0502.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(187,24,'Idanha-a-Nova','filesGPG/2021localitiesFregs/municipios/C21_LUGF0505.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(188,24,'Oleiros','filesGPG/2021localitiesFregs/municipios/C21_LUGF0506.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(189,24,'Penamacor','filesGPG/2021localitiesFregs/municipios/C21_LUGF0507.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(190,24,'Proen&ccedil;a-a-Nova','filesGPG/2021localitiesFregs/municipios/C21_LUGF0508.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(191,24,'Vila Velha de R&oacute;d&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF0511.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(192,25,'Abrantes','filesGPG/2021localitiesFregs/municipios/C21_LUGF1401.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(193,25,'Alcanena','filesGPG/2021localitiesFregs/municipios/C21_LUGF1402.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(194,25,'Const&acirc;ncia','filesGPG/2021localitiesFregs/municipios/C21_LUGF1408.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(195,25,'Entroncamento','filesGPG/2021localitiesFregs/municipios/C21_LUGF1410.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(196,25,'Ferreira do Z&ecirc;zere','filesGPG/2021localitiesFregs/municipios/C21_LUGF1411.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(197,25,'Ma&ccedil;&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1413.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(198,25,'Our&eacute;m','filesGPG/2021localitiesFregs/municipios/C21_LUGF1421.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(199,25,'Sardoal','filesGPG/2021localitiesFregs/municipios/C21_LUGF1417.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(200,25,'Sert&atilde;','filesGPG/2021localitiesFregs/municipios/C21_LUGF0509.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(201,25,'Tomar','filesGPG/2021localitiesFregs/municipios/C21_LUGF1418.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(202,25,'Torres Novas','filesGPG/2021localitiesFregs/municipios/C21_LUGF1419.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(203,25,'Vila de Rei','filesGPG/2021localitiesFregs/municipios/C21_LUGF0510.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(204,25,'Vila Nova da Barquinha','filesGPG/2021localitiesFregs/municipios/C21_LUGF1420.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		
+		d.add(205,26,'Almeida','filesGPG/2021localitiesFregs/municipios/C21_LUGF0902.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(206,26,'Belmonte','filesGPG/2021localitiesFregs/municipios/C21_LUGF0501.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(207,26,'Celorico da Beira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0903.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(208,26,'Covilh&atilde;','filesGPG/2021localitiesFregs/municipios/C21_LUGF0503.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(209,26,'Figueira de Castelo Rodrigo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0904.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(210,26,'Fornos de Algodres','filesGPG/2021localitiesFregs/municipios/C21_LUGF0905.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(211,26,'Fund&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF0504.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(212,26,'Gouveia','filesGPG/2021localitiesFregs/municipios/C21_LUGF0906.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(213,26,'Guarda','filesGPG/2021localitiesFregs/municipios/C21_LUGF0907.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(214,26,'Manteigas','filesGPG/2021localitiesFregs/municipios/C21_LUGF0908','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(215,26,'Meda','filesGPG/2021localitiesFregs/municipios/C21_LUGF0909.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(216,26,'Pinhel','filesGPG/2021localitiesFregs/municipios/C21_LUGF0910.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(217,26,'Sabugal','filesGPG/2021localitiesFregs/municipios/C21_LUGF0911.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(218,26,'Seia','filesGPG/2021localitiesFregs/municipios/C21_LUGF0912.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(219,26,'Trancoso','filesGPG/2021localitiesFregs/municipios/C21_LUGF0913.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(220,27,'Alcochete ','filesGPG/2021localitiesFregs/municipios/C21_LUGF1502.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(221,27,'Almada','filesGPG/2021localitiesFregs/municipios/C21_LUGF1503.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(222,27,'Amadora','filesGPG/2021localitiesFregs/municipios/C21_LUGF1115.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(223,27,'Barreiro','filesGPG/2021localitiesFregs/municipios/C21_LUGF1504.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(224,27,'Cascais','filesGPG/2021localitiesFregs/municipios/C21_LUGF1105.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(225,27,'Lisboa','filesGPG/2021localitiesFregs/municipios/C21_LUGF1106.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(226,27,'Loures','filesGPG/2021localitiesFregs/municipios/C21_LUGF1107.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(227,27,'Mafra','filesGPG/2021localitiesFregs/municipios/C21_LUGF1109.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(228,27,'Moita','filesGPG/2021localitiesFregs/municipios/C21_LUGF1506.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(229,27,'Montijo','filesGPG/2021localitiesFregs/municipios/C21_LUGF1507.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(230,27,'Odivelas','filesGPG/2021localitiesFregs/municipios/C21_LUGF1116.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(231,27,'Oeiras','filesGPG/2021localitiesFregs/municipios/C21_LUGF1110.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');		
+		d.add(232,27,'Palmela','filesGPG/2021localitiesFregs/municipios/C21_LUGF1508.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(233,27,'Seixal','filesGPG/2021localitiesFregs/municipios/C21_LUGF1510.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(234,27,'Sesimbra','filesGPG/2021localitiesFregs/municipios/C21_LUGF1511.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(235,27,'Set&uacute;bal','filesGPG/2021localitiesFregs/municipios/C21_LUGF1512.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(236,27,'Sintra','filesGPG/2021localitiesFregs/municipios/C21_LUGF1111.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(237,27,'Vila Franca de Xira','filesGPG/2021localitiesFregs/municipios/C21_LUGF1114.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');	
+
+		d.add(238,28,'Alc&aacute;cer do Sal','filesGPG/2021localitiesFregs/municipios/C21_LUGF1501.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(239,28,'Gr&acirc;ndola','filesGPG/2021localitiesFregs/municipios/C21_LUGF1505.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(240,28,'Odemira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0211.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(241,28,'Santiago do Cac&eacute;m','filesGPG/2021localitiesFregs/municipios/C21_LUGF1509.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(242,28,'Sines','filesGPG/2021localitiesFregs/municipios/C21_LUGF1513.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(243,29,'Aljustrel','filesGPG/2021localitiesFregs/municipios/C21_LUGF0201.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(244,29,'Almod&ocirc;var','filesGPG/2021localitiesFregs/municipios/C21_LUGF0202.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(245,29,'Alvito','filesGPG/2021localitiesFregs/municipios/C21_LUGF0203.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(246,29,'Barrancos','filesGPG/2021localitiesFregs/municipios/C21_LUGF0204.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(247,29,'Beja','filesGPG/2021localitiesFregs/municipios/C21_LUGF0205.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(248,29,'Castro Verde','filesGPG/2021localitiesFregs/municipios/C21_LUGF0206.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(249,29,'Cuba','filesGPG/2021localitiesFregs/municipios/C21_LUGF0207.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(250,29,'Ferreira do Alentejo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0208.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(251,29,'M&eacute;rtola','filesGPG/2021localitiesFregs/municipios/C21_LUGF0209.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(252,29,'Moura','filesGPG/2021localitiesFregs/municipios/C21_LUGF0210.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(253,29,'Ourique','filesGPG/2021localitiesFregs/municipios/C21_LUGF0212.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(254,29,'Serpa','filesGPG/2021localitiesFregs/municipios/C21_LUGF0213.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(255,29,'Vidigueira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0214.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		
+
+		d.add(256,30,'Almeirim','filesGPG/2021localitiesFregs/municipios/C21_LUGF1403.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(257,30,'Alpiar&ccedil;a','filesGPG/2021localitiesFregs/municipios/C21_LUGF1404.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(258,30,'Azambuja','filesGPG/2021localitiesFregs/municipios/C21_LUGF1103.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(259,30,'Benavente','filesGPG/2021localitiesFregs/municipios/C21_LUGF1405.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(260,30,'Cartaxo','filesGPG/2021localitiesFregs/municipios/C21_LUGF1406.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(261,30,'Chamusca','filesGPG/2021localitiesFregs/municipios/C21_LUGF1407.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(262,30,'Coruche','filesGPG/2021localitiesFregs/municipios/C21_LUGF1409.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(263,30,'Goleg&atilde;','filesGPG/2021localitiesFregs/municipios/C21_LUGF1412.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(264,30,'Rio Maior','filesGPG/2021localitiesFregs/municipios/C21_LUGF1414.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(265,30,'Salvaterra de Magos','filesGPG/2021localitiesFregs/municipios/C21_LUGF1415.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(266,30,'Santar&eacute;m ','filesGPG/2021localitiesFregs/municipios/C21_LUGF1416.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(267,31,'Alter do Ch&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1201.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(268,31,'Arronches','filesGPG/2021localitiesFregs/municipios/C21_LUGF1202.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(269,31,'Avis','filesGPG/2021localitiesFregs/municipios/C21_LUGF1203.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(270,31,'Campo Maior','filesGPG/2021localitiesFregs/municipios/C21_LUGF1204.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(271,31,'Castelo de Vide','filesGPG/2021localitiesFregs/municipios/C21_LUGF1205.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(272,31,'Crato','filesGPG/2021localitiesFregs/municipios/C21_LUGF1206.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(273,31,'Elvas','filesGPG/2021localitiesFregs/municipios/C21_LUGF1207.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(274,31,'Fronteira','filesGPG/2021localitiesFregs/municipios/C21_LUGF1208.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(275,31,'Gavi&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1209.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(276,31,'Marv&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF1210.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(277,31,'Monforte','filesGPG/2021localitiesFregs/municipios/C21_LUGF1211.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(278,31,'Nisa','filesGPG/2021localitiesFregs/municipios/C21_LUGF1212.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(279,31,'Ponte de Sor','filesGPG/2021localitiesFregs/municipios/C21_LUGF1213.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(280,31,'Portalegre','filesGPG/2021localitiesFregs/municipios/C21_LUGF1214.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(281,31,'Sousel','filesGPG/2021localitiesFregs/municipios/C21_LUGF1215.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(282,32,'Alandroal','filesGPG/2021localitiesFregs/municipios/C21_LUGF0701.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(283,32,'Arraiolos','filesGPG/2021localitiesFregs/municipios/C21_LUGF0702.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(284,32,'Borba','filesGPG/2021localitiesFregs/municipios/C21_LUGF0703.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(285,32,'Estremoz','filesGPG/2021localitiesFregs/municipios/C21_LUGF0704.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(286,32,'&eacute;vora','filesGPG/2021localitiesFregs/municipios/C21_LUGF0705.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(287,32,'Montemor-o-Novo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0706.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(288,32,'Mora','filesGPG/2021localitiesFregs/municipios/C21_LUGF0707.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(289,32,'Mour&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF0708.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(290,32,'Portel','filesGPG/2021localitiesFregs/municipios/C21_LUGF0709.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(291,32,'Redondo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0710.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(292,32,'Reguengos de Monsaraz','filesGPG/2021localitiesFregs/municipios/C21_LUGF0711.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(293,32,'Vendas Novas','filesGPG/2021localitiesFregs/municipios/C21_LUGF0712.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(294,32,'Viana do Alentejo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0713.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(295,32,'Vila Vi&ccedil;osa','filesGPG/2021localitiesFregs/municipios/C21_LUGF0714.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+
+
+		d.add(296,33,'Albufeira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0801.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(297,33,'Alcoutim','filesGPG/2021localitiesFregs/municipios/C21_LUGF0802.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(298,33,'Aljezur','filesGPG/2021localitiesFregs/municipios/C21_LUGF0803.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(299,33,'Castro Marim','filesGPG/2021localitiesFregs/municipios/C21_LUGF0804.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(300,33,'Faro','filesGPG/2021localitiesFregs/municipios/C21_LUGF0805.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(301,33,'Lagoa','filesGPG/2021localitiesFregs/municipios/C21_LUGF0806.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(302,33,'Lagos','filesGPG/2021localitiesFregs/municipios/C21_LUGF0807.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(303,33,'Loul&eacute;','filesGPG/2021localitiesFregs/municipios/C21_LUGF0808.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(304,33,'Monchique','filesGPG/2021localitiesFregs/municipios/C21_LUGF0809.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(305,33,'Olh&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF0810.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(306,33,'Portim&atilde;o','filesGPG/2021localitiesFregs/municipios/C21_LUGF0811.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(307,33,'S&atilde;o Br&aacute;s de Alportel','filesGPG/2021localitiesFregs/municipios/C21_LUGF0812.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(308,33,'Silves','filesGPG/2021localitiesFregs/municipios/C21_LUGF0813.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(309,33,'Tavira','filesGPG/2021localitiesFregs/municipios/C21_LUGF0814.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(310,33,'Vila do Bispo','filesGPG/2021localitiesFregs/municipios/C21_LUGF0815.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(311,33,'Vila Real de Santo Ant&oacute;nio','filesGPG/2021localitiesFregs/municipios/C21_LUGF0816.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(312,4,'Regi&atilde;o Aut&oacute;noma dos A&ccedil;ores  ','filesGPG/2021localitiesFregs/C21_LUGF_RAA.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(313,312,'Vila do Porto  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4101.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(314,312,'Lagoa (R.A.A.)  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4201.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(315,312,'Nordeste  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4202.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(316,312,'Ponta Delgada  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4203.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(317,312,'Povoa&ccedil;&atilde;o  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4204.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(318,312,'Ribeira Grande  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4205.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(319,312,'Vila Franca do Campo  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4206.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(320,312,'Angra do Hero&iacute;smo  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4301.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(321,312,'Vila da Praia da Vit&oacute;ria  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4302.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(322,312,'Santa Cruz da Graciosa  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4401.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(323,312,'Calheta (R.A.A.)  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4501.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(324,312,'Velas  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4502.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(325,312,'Lajes do Pico  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4601.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(326,312,'Madalena  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4602.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(327,312,'S&atilde;o Roque do Pico  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4603.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(328,312,'Horta  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4701.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(329,312,'Lajes das Flores  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4801.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(330,312,'Santa Cruz das Flores  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4802.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(331,312,'Corvo  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF4901.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(332,312,'Regi&atilde;o Aut&oacute;noma dos A&ccedil;ores  ','filesGPG/2021localitiesFregs/raa2021.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+
+		d.add(333,5,'Regi&atilde;o Aut&oacute;noma da Madeira  ','filesGPG/2021localitiesFregs/C21_LUGF_MAD.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+
+		d.add(334,333,'Calheta (R.A.M.)  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3101.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(335,333,'C&acirc;mara de Lobos  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3102.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(336,333,'Funchal  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3103.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(337,333,'Machico  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3104.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(348,333,'Ponta do Sol  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3105.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(349,333,'Porto Moniz  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3106.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(350,333,'Ribeira Brava  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3107.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(351,333,'Santa Cruz  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3108.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(352,333,'Santana  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3109.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(353,333,'S&atilde;o Vicente  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3110.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+		d.add(354,333,'Porto Santo  ','filesGPG/2021localitiesFregs/municipios/C21_LUGF3201.zip','Clique para importar dados geogr&aacute;ficos e informa&ccedil;&atilde;o estat&iacute;stica');
+ 
+ 
+
+		document.write(d);
+		//d.add(3,1,'Node 1.1','example01.html');
+		//d.add(5,3,'Node 1.1.1','example01.html');
+		//d.add(6,5,'Node 1.1.1.1','example01.html');
+		//d.add(7,0,'Node 4','example01.html');
+		//d.add(8,1,'Node 1.2','example01.html');
+		//d.add(9,0,'My Pictures','example01.html','Pictures I\'ve taken over the years','','','img/imgfolder.gif');
+		//d.add(10,9,'The trip to Iceland','example01.html','Pictures of Gullfoss and Geysir');
+		//d.add(11,9,'Mom\'s birthday','example01.html');
+		//d.add(12,0,'Recycle Bin','example01.html','','','img/trash.gif');
+
+
+		//-->
+	</script>
+</div>
+ </div>	<!--  id="TreeView"-->
+                   </div>
+                </div>
+              <!--   <div class="post">
+                    <h2><a href="#">Lorem ipsum dolor sit amet</a></h2>
+                    <p class="postmeta">Posted in <a href="#">Lorem ipsum</a> | Apr 15, 2010 | <a href="#">2 comments</a></p>
+                    <div class="entry">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dui quis urna sollicitudin sodales. Fusce laoreet, ligula et rhoncus volutpat, felis magna varius tortor, ac molestie diam lorem in lectus. Aliquam venenatis mollis est, a porttitor ipsum interdum nec. Vestibulum sed risus ac nulla viverra pharetra.</p>
+                        <p>Quisque congue lacus sed odio fermentum tincidunt. Proin vitae nulla velit. Cras consectetur commodo scelerisque. Curabitur leo nisl, blandit at tempus et, interdum at risus. Sed dui augue, pellentesque ac pulvinar id, malesuada eget diam. Integer elementum sem eget tortor faucibus id pellentesque lorem dignissim... <a href="#">more</a></p>
+                    </div>
+                </div>	 -->			              
+            </div><!-- content -->                    
+            <div class="clearing">&nbsp;</div>   
+    </div></div><!-- main --><!-- main2 -->
+ 
+
+
+<!-- FINISH CONTEUDO  -->
+
+     </table>
+
+ <table width="1004"  cellspacing="0" cellpadding="0" align="center">
+
+  <tbody><tr>
+       <td >
+<div class="container">
+<!-- <div class="div_dir"><img height="31" alt="S&iacute;mbolo de Acessibilidade &agrave; Web" width="33" longdesc="http://www.ine.pt/xportal/xmain?xpid=INE&amp;xpgid=ine_acessibilidade" src="http://www.ine.pt/img/access.gif" />[<a title="Descri&ccedil;&atilde;o do sS&iacute;mbolo de Acessibilidade &agrave; Web" href="https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_inst_acessibilidade">D</a>]&nbsp; <a title="Explica&ccedil;&atilde;o do n&iacute;vel de conformidade AA" href="http://www.w3.org/WAI/WCAG1AA-Conformance.html.en"><img height="31" alt="Em conformidade com o n&iacute;vel 'AA' das WCAG 1.0 do W3C" width="88" src="http://www.ine.pt/img/wcag1AA.png" /> </a></div> -->
+ <div class="div_dir"><img border="0" alt="S&iacute;mbolo de Acessibilidade &agrave; Web" width="33" height="31" src="http://www.ine.pt/img/access.gif" /> [<a title="Descri&ccedil;&atilde;o do S&iacute;mbolo de Acessibilidade &agrave; Web" href="https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_inst_acessibilidade">D</a>] <a href="http://www.w3.org/WAI/WCAG1AA-Conformance.html.en"><img border="0" alt="Em conformidade com o n&iacute;vel 'A' das WCAG 1.0 do W3C" width="88" height="31" src="http://www.ine.pt/img/wcag1A.gif" /></a> | <a href="https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_cont_inst&INST=3585857">Copyright &copy; Instituto Nacional de Estat&iacute;stica</a>
+</div>
+
+	</td></tr></tbody></table>
+
+</body>
+</html>
