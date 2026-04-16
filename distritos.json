@@ -100915,7 +100915,16 @@
             "name": "Imaculado Coração Maria",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "Lombo dos Aguiares"
+              },
+              {
+                "name": "Quinta do Leme"
+              },
+              {
+                "name": "Pico dos Barcelos (parte)"
+              },
+              {
+                "name": "Cruz da Oliveira"
               }
             ]
           },
@@ -100923,7 +100932,37 @@
             "name": "Monte",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "Babosas"
+              },
+              {
+                "name": "Carreiras"
+              },
+              {
+                "name": "Curral dos Romeiros"
+              },
+              {
+                "name": "Desterro"
+              },
+              {
+                "name": "Lombada"
+              },
+              {
+                "name": "Marmeleiros"
+              },
+              {
+                "name": "Monte"
+              },
+              {
+                "name": "Pico"
+              },
+              {
+                "name": "Quinta do Monte"
+              },
+              {
+                "name": "Quinta Jardins do Imperador"
+              },
+              {
+                "name": "Terreiro da Luta"
               }
             ]
           },
@@ -100931,7 +100970,46 @@
             "name": "Santa Luzia",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "Santa Luzia"
+              },
+              {
+                "name": "Rua 31 de Janeiro"
+              },
+              {
+                "name": "Livramento (parte)"
+              },
+              {
+                "name": "Avenida do Mar (zona alta)"
+              },
+              {
+                "name": "Quinta das Cruzes"
+              },
+              {
+                "name": "Encarnação (inclui o Bairro da Encarnação)"
+              },
+              {
+                "name": "Grémio dos Bordados (Bairro)"
+              },
+              {
+                "name": "Pena"
+              },
+              {
+                "name": "Princesa"
+              },
+              {
+                "name": "Quinta do Salvador"
+              },
+              {
+                "name": "Quinta dos Reis"
+              },
+              {
+                "name": "Bom Jesus"
+              },
+              {
+                "name": "Comboio"
+              },
+              {
+                "name": "Levada de Santa Luzia"
               }
             ]
           },
@@ -100939,7 +101017,46 @@
             "name": "Santa Maria Maior",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "Zona Velha"
+              },
+              {
+                "name": "Barreirinha"
+              },
+              {
+                "name": "Socorro"
+              },
+              {
+                "name": "Rua de Santa Maria"
+              },
+              {
+                "name": "Lombo da Boa Vista"
+              },
+              {
+                "name": "Bom Sucesso"
+              },
+              {
+                "name": "Cabeço de Ferro"
+              },
+              {
+                "name": "Lazareto"
+              },
+              {
+                "name": "Lombo da Quinta"
+              },
+              {
+                "name": "Murteiras"
+              },
+              {
+                "name": "Oudinout"
+              },
+              {
+                "name": "Pasto"
+              },
+              {
+                "name": "Rochinha"
+              },
+              {
+                "name": "Santa Maria (Zona Velha)"
               }
             ]
           },
@@ -100947,7 +101064,76 @@
             "name": "Santo António",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "Lombo dos Aguiares"
+              },
+              {
+                "name": "Achada"
+              },
+              {
+                "name": "Barreiros (parte)"
+              },
+              {
+                "name": "Pico dos Barcelos"
+              },
+              {
+                "name": "Caminho das Romeiras"
+              },
+              {
+                "name": "Aguiares (Lombo dos Aguiares)"
+              },
+              {
+                "name": "Barreira"
+              },
+              {
+                "name": "Boliqueime"
+              },
+              {
+                "name": "Casa Branca"
+              },
+              {
+                "name": "Casas Próximas"
+              },
+              {
+                "name": "Chamorra"
+              },
+              {
+                "name": "Encruzilhadas"
+              },
+              {
+                "name": "Fontes"
+              },
+              {
+                "name": "Jamboto"
+              },
+              {
+                "name": "Ladeira"
+              },
+              {
+                "name": "Madre da Aldeia"
+              },
+              {
+                "name": "Pilar"
+              },
+              {
+                "name": "Quinta do Leme"
+              },
+              {
+                "name": "Quinta das Freiras"
+              },
+              {
+                "name": "Ribeirinho"
+              },
+              {
+                "name": "Romeiras"
+              },
+              {
+                "name": "Courelas"
+              },
+              {
+                "name": "Trapiche"
+              },
+              {
+                "name": "Vasco Gil"
               }
             ]
           },
@@ -100955,7 +101141,40 @@
             "name": "São Gonçalo",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "São Gonçalo"
+              },
+              {
+                "name": "Boa Nova"
+              },
+              {
+                "name": "Neves"
+              },
+              {
+                "name": "Lazareto"
+              },
+              {
+                "name": "Palheiro Ferreiro"
+              },
+              {
+                "name": "Cancela (parte)"
+              },
+              {
+                "name": "Bica de Pau"
+              },
+              {
+                "name": "Terço"
+              },
+              {
+                "name": "Cova da Iria"
+              },
+              {
+                "name": "Caridade"
+              },
+              {
+                "name": "Vista da Praia"
+              },
+              {
+                "name": "Alegria"
               }
             ]
           },
@@ -100963,7 +101182,55 @@
             "name": "São Martinho",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "São Martinho"
+              },
+              {
+                "name": "Ajuda"
+              },
+              {
+                "name": "Areeiro"
+              },
+              {
+                "name": "Igreja"
+              },
+              {
+                "name": "Amparo"
+              },
+              {
+                "name": "Casa Branca"
+              },
+              {
+                "name": "Nazaré"
+              },
+              {
+                "name": "Pico de São Martinho"
+              },
+              {
+                "name": "Piornais"
+              },
+              {
+                "name": "Quebradas"
+              },
+              {
+                "name": "Virtudes"
+              },
+              {
+                "name": "Lombada"
+              },
+              {
+                "name": "Pico do Funcho"
+              },
+              {
+                "name": "Pilar"
+              },
+              {
+                "name": "Poço Barral"
+              },
+              {
+                "name": "Vargem"
+              },
+              {
+                "name": "Vitória"
               }
             ]
           },
@@ -100971,7 +101238,34 @@
             "name": "São Pedro",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "São Pedro"
+              },
+              {
+                "name": "Centro"
+              },
+              {
+                "name": "Avenida Arriaga (parte)"
+              },
+              {
+                "name": "Rua da Carreira"
+              },
+              {
+                "name": "Quinta Magnólia"
+              },
+              {
+                "name": "Viveiros"
+              },
+              {
+                "name": "Barreira"
+              },
+              {
+                "name": "Cruz de Carvalho"
+              },
+              {
+                "name": "Moinhos"
+              },
+              {
+                "name": "Saúde"
               }
             ]
           },
@@ -100979,7 +101273,34 @@
             "name": "São Roque",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "São Roque"
+              },
+              {
+                "name": "Achada"
+              },
+              {
+                "name": "Galeão"
+              },
+              {
+                "name": "Pico dos Barcelos"
+              },
+              {
+                "name": "Lombo Jamboeiro"
+              },
+              {
+                "name": "Igreja"
+              },
+              {
+                "name": "Fundoa"
+              },
+              {
+                "name": "Levada do Pico"
+              },
+              {
+                "name": "Bairro de São Roque"
+              },
+              {
+                "name": "Pico do Cardo"
               }
             ]
           },
@@ -100987,7 +101308,34 @@
             "name": "Sé",
             "localidades": [
               {
-                "name": "Funchal"
+                "name": "Sé"
+              },
+              {
+                "name": "Centro Histórico"
+              },
+              {
+                "name": "Avenida Arriaga"
+              },
+              {
+                "name": "Rua do Aljube"
+              },
+              {
+                "name": "Mercado dos Lavradores"
+              },
+              {
+                "name": "Praça do Município"
+              },
+              {
+                "name": "Carmo"
+              },
+              {
+                "name": "Santa Catarina"
+              },
+              {
+                "name": "Ilhéus"
+              },
+              {
+                "name": "Largo da Sé"
               }
             ]
           }
@@ -101010,6 +101358,39 @@
               },
               {
                 "name": "Queimada"
+              },
+              {
+                "name": "Queimada de Baixo"
+              },
+              {
+                "name": "Madeira"
+              },
+              {
+                "name": "Lugarinho"
+              },
+              {
+                "name": "Portelinho"
+              },
+              {
+                "name": "Teodoro"
+              },
+              {
+                "name": "Seixo"
+              },
+              {
+                "name": "Cardais"
+              },
+              {
+                "name": "Torre"
+              },
+              {
+                "name": "Poço dos Louros"
+              },
+              {
+                "name": "Jardim do Seixo"
+              },
+              {
+                "name": "Pôr do Sol"
               }
             ]
           },
@@ -101047,6 +101428,96 @@
             "localidades": [
               {
                 "name": "Machico"
+              },
+              {
+                "name": "Banda de Além"
+              },
+              {
+                "name": "Cais"
+              },
+              {
+                "name": "Caramanchão"
+              },
+              {
+                "name": "Fazenda"
+              },
+              {
+                "name": "Forte"
+              },
+              {
+                "name": "Graça"
+              },
+              {
+                "name": "Igreja"
+              },
+              {
+                "name": "Ladeira"
+              },
+              {
+                "name": "Lamaceiros"
+              },
+              {
+                "name": "Landeiros"
+              },
+              {
+                "name": "Lombo do Cheque"
+              },
+              {
+                "name": "Marco"
+              },
+              {
+                "name": "Maroços"
+              },
+              {
+                "name": "Misericórdia"
+              },
+              {
+                "name": "Moinho da Serra"
+              },
+              {
+                "name": "Murtinhal"
+              },
+              {
+                "name": "Nóia"
+              },
+              {
+                "name": "Paraíso"
+              },
+              {
+                "name": "Pastel"
+              },
+              {
+                "name": "Pé da Ladeira"
+              },
+              {
+                "name": "Piquinho"
+              },
+              {
+                "name": "Poço do Gil"
+              },
+              {
+                "name": "Pontinha"
+              },
+              {
+                "name": "Ribeira Grande"
+              },
+              {
+                "name": "Ribeira Seca"
+              },
+              {
+                "name": "Rochinha"
+              },
+              {
+                "name": "São Roque"
+              },
+              {
+                "name": "Serra d'Água"
+              },
+              {
+                "name": "Terça"
+              },
+              {
+                "name": "Torre"
               }
             ]
           },
